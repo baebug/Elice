@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background: white;
+    border-bottom: 1px gray solid;
+
+    z-index: 9000;
+}
+
+header h1 {
+    position: relative;
+    width: 100%;
+
+    /* x, y 축 중앙 정렬하기 */
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header .menu-open {
+    position: absolute;
+
+    top: 4vh;
+    transform: translateY(-50%);
+    left: 50px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+    z-index: 9999;
+}
+
+main {
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    
+    
+}
+
+main .main div {
+    margin-top: 10px;
+}
+
+main .side-nav {
+    border-right: 1px gray solid;
+}
+
+main .side-nav li {
+    padding: 30px 0 0 30px;
+}
+
+main .side-nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+main .main-bg {
+    margin: 10px 10px 0 10px;
+    height: 3000px;
+    background: powderblue;
+    border-radius: 30px;
+}
+
+main .main {
+    margin: 30px;
+}
+
+main .form-group {
+    margin-top: 10px;
+}
+
+main .form-group input,
+main .form-group textarea {
+    width: 100%;
+    
+}
+
+main .form-group textarea {
+    height: 50px;
+}

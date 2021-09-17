@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-open">
+            M
+        </div>
+        <h1>배운 내용 정리하기</h1>
+    </header>
+    <main role="main">
+        <div class="side-nav">
+            <ol>
+                <li><a href="1.html">jQuery</a></li>
+                <li><a href="2.html">귀찮아서</a></li>
+                <li><a href="3.html">작동 안 함</a></li>
+            </ol>
+        </div>
+        <div class="main-bg">
+            <div class="main">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere est ipsam, perferendis veritatis eius ducimus doloribus, minima, alias suscipit quam obcaecati deserunt optio pariatur commodi ratione aspernatur nihil tempora iusto!
+                <div>
+                    <p>죽을래?</p>
+                    <label for="yes">
+                        <input type="radio" id="yes" name="answer"> 네
+                    </label>
+                    <label for="no">
+                        <input type="radio" name="answer" id="no"> 시러요
+                    </label>
+                </div>
+                <div>
+                    <p>이건 체크 박스</p>
+                    <label for="check1">
+                        <input type="checkbox" name="check1" id="check1"> check1
+                    </label>
+                    <label for="check2">
+                        <input type="checkbox" name="check2" id="check2"> check2
+                    </label>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="name" required minlength="2">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pw">비밀번호</label>
+                        <input type="password" id="pw" name="pw" required minlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">desc</label>
+                        <textarea name="message" id="message" required minlength="20"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">제출</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,1 +1,3 @@
 # Elice
+cat command
+add

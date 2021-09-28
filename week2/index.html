@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="index.html" onclick="
+        event.preventDefault();
+        document.querySelector('article').innerHTML = '<h2>Welcome</h2>Hello, WEB';
+        ">WEB</a></h1>    
+    
+    <ul>
+        <li><a href="1.html," onclick="
+            event.preventDefault();
+            document.querySelector('article').innerHTML = '<h2>html</h2>HTML is ...';
+            ">html</a></li>
+        <li><a href="2.html," onclick="
+            event.preventDefault();
+            document.querySelector('article').innerHTML = '<h2>css</h2>CSS is ...';
+            ">css</a></li>
+    </ul>
+
+    <article>
+        <h2>Welcome</h2>
+        Hello, WEB
+    </article>
+</body>
+</html>

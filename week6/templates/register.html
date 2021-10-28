@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{{ url_for('adduser') }}" method="post">
+        <h2>회원가입</h2>
+        <p>ID<br/>
+            <input type="text" name="id" />
+        </p>
+        <p>Password<br/>
+            <input type="password" name="password" />
+        </p>
+        <p>Name<br/>
+            <input type="text" name="name" />
+        </p>
+        <p>Telephone<br/>
+            <input type="text" name="telephone" />
+        </p>
+        <p>
+            <input type="submit" />
+        </p>
+    </form>
+</body>
+</html>

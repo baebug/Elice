@@ -1,0 +1,5 @@
+# file
+
+# dir  ---> /dirname 이런식으로 하면 최상위 path의 해당 디렉토리만 ignore
+venv/
+__pycache__/
